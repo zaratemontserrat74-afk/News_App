@@ -15,9 +15,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.pajasoft.news_app.Models.Noticia
 
 @Composable
-fun Cardimg(){
+fun Cardimg(noticia: Noticia){
     Column(
         modifier = Modifier
             .padding(5.dp)
@@ -26,7 +27,7 @@ fun Cardimg(){
     ) {
         AsyncImage(
             model = noticia.img,
-            contentDescription = noticia.tittle,
+            contentDescription = noticia.title,
             modifier = Modifier
                 .fillMaxWidth()
                 .height(125.dp),
