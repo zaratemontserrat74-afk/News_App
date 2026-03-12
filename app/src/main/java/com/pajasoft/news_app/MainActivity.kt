@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.pajasoft.news_app.Components.Buscador
 import com.pajasoft.news_app.ui.theme.News_AppTheme
 
 class MainActivity : ComponentActivity() {
