@@ -1,4 +1,4 @@
-package com.pajasoft.news_app.Models
+package com.pajasoft.news_app.models
 
 
 
