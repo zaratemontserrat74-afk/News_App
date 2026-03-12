@@ -15,10 +15,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.pajasoft.news_app.Models.Noticia
+import com.pajasoft.news_app.models.Noticia
 
 @Composable
-fun Cardimg(noticia: Noticia){
+fun CardImg(noticia: Noticia){
     Column(
         modifier = Modifier
             .padding(5.dp)
